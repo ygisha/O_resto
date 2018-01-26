@@ -1,0 +1,43 @@
+
+body{
+	font-family: Maiandra GD!important;
+	font-size: 14px;
+	background-color: #ffffff!important;
+  }
+  
+.menu{
+	background-color: #c41200!important; /* Rouge foncé pour la barre de menu */
+	height: 100px!important; /* Hauteur du menu */
+	margin-bottom: 0px!important; /* enlève la marge du bas "à cause de bootstrap */
+	border: 1px solid transparent!important;
+}
+
+.main-menu{
+	margin-top: 30px!important;  /* margin-top fait descendre les elements */
+	margin-bottom: 20px!important; /* margin-top fait monter les elements */
+	/* margin-top et margin-right font vont centrer les éléments sur une ligne */
+}
+
+.menu-head> img{
+	margin-left: 50px; /* Pousse le logo à gauche */
+	margin-top: 12px;  /* pousse le logo en bas */
+}
+
+.menu-title{
+	font-size: 50px; /* Taille du titre près du logo */
+	font-weight: bold;  /* Rend le texte "titre du menu" en gras*/
+} 
+
+.menu-title a{
+	color: #FFFFFF!important; /* La couleur du texte dans les liens s'applique au 'a' */
+}
+
+.menu-droit{
+	font-size: 16px; /*  font-size des liens de droite */
+	font-weight: bold; /* Mets les liens du menu en gras */
+	margin-right: 50px; /* Mets une marge de droite */
+}
+
+.menu-droit a{
+	color: #FFFFFF!important; /* La couleur du texte blanc appliquée aux liens s'applique au 'a' */
+}
